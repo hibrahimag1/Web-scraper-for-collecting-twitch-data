@@ -328,7 +328,7 @@ def ready_data(data):
     if (type(data)==list): return f"{str(data[0])},{str(data[1])}"
     else: return str(data)
 
-# this is for creating the dataset.csv file in it's entirety
+# this is for creating the dataset.csv file in its entirety
 with open("streamer_names.txt", "r", encoding="utf-8") as read_file, open("dataset.csv", "a") as write_file:
     for ind, streamer in enumerate(read_file, 1):
         rank, name = streamer.split(",")
