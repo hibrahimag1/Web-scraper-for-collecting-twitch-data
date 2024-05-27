@@ -501,8 +501,8 @@ RANK,NAME,LANGUAGE,TYPE,MOST_STREAMED_GAME,2ND_MOST_STREAMED_GAME,AVERAGE_STREAM
 501,w0n23,English,personality,Albion Online,Lost Ark,8.0,145,322,1,7.766,136000,303000,19,5.6,Monday,Tuesday
 502,ponce,French,personality,Just Chatting,Fortnite,7.1,382,29.268,1.8,12.396,793000,60700000,221,4.5,Tuesday,Saturday
 503,shisheyu,French,personality,The Binding of Isaac: Repentance,The Binding of Isaac: Repentance,5.0,53,3.126,1.5,11.510,135000,7750000,532,5.9,Wednesday,Sunday
-504,xop0,English,personality,Just Chatting,Hearthstone,13.3,46,27.589,3.2,34.556,150000,80800000,2,980,6.5,Friday,Monday
-505,blackufa,Russian,personality,Just Chatting,Games + Demos,6.0,151,30.254,2.5,10.869,384000,59200000,1,612,4.5,Saturday,Saturday
+504,xop0,English,personality,Just Chatting,Hearthstone,13.3,46,27.589,3.2,34.556,150000,80800000,2980,6.5,Friday,Monday
+505,blackufa,Russian,personality,Just Chatting,Games + Demos,6.0,151,30.254,2.5,10.869,384000,59200000,1612,4.5,Saturday,Saturday
 506,yoon_froggy,English,personality,Just Chatting,League of Legends,5.1,439,334,1.6,4.125,372000,283000,91,3,Tuesday,Sunday
 507,shotzzy,English,personality,Call of Duty: Warzone,Halo 5: Guardians,4.2,405,2.361,1.3,5.187,473000,2760000,49,3.2,Saturday,Monday
 508,morphe_ya,Russian,personality,Just Chatting,Dota 2,2.7,392,2.680,1.8,3.108,455000,3110000,97,5.1,Friday,Monday
@@ -545,7 +545,7 @@ RANK,NAME,LANGUAGE,TYPE,MOST_STREAMED_GAME,2ND_MOST_STREAMED_GAME,AVERAGE_STREAM
 545,2okos,Hungarian,personality,Just Chatting,Fortnite,4.6,757,0,1.7,1.337,229000,0,54,4.2,Saturday,Tuesday
 546,deusamir,Spanish,personality,Call of Duty: Warzone,Call of Duty: Modern Warfare III,5.3,1.220,2,1.6,1.040,221000,364,13,0.7,Thursday,Thursday
 547,jankos,English,personality,League of Legends,I'm Only Sleeping,4.8,898,42.965,1,6.627,1310000,61700000,28,3.5,Tuesday,Sunday
-548,welovegames,Russian,personality,Just Chatting,IRL,7.2,142,38.930,2.2,20.276,492000,122000000,1,414,5.4,Thursday,Monday
+548,welovegames,Russian,personality,Just Chatting,IRL,7.2,142,38.930,2.2,20.276,492000,122000000,1414,5.4,Thursday,Monday
 549,squeex,English,personality,Super Mario 64,Counter-Strike,4.1,136,180,1.6,7.009,200000,266000,245,5.3,Tuesday,Wednesday
 550,n3koglai,Russian,personality,Just Chatting,Dota 2,2.1,7.232,35.995,1.6,725,2590000,12900000,24,2.2,Monday,Monday
 551,avoidingthepuddle,English,personality,Tekken 7,Path of Exile,4.0,135,8.283,1.2,10.328,431000,28600000,594,6.5,Wednesday,Saturday
@@ -671,7 +671,7 @@ RANK,NAME,LANGUAGE,TYPE,MOST_STREAMED_GAME,2ND_MOST_STREAMED_GAME,AVERAGE_STREAM
 671,ilame,Russian,personality,Path of Exile,PUBG: BATTLEGROUNDS,8.9,151,20.014,1.9,22.635,408000,53800000,367,6.5,Thursday,Thursday
 672,impulsesv,English,personality,Minecraft,Phasmophobia,2.8,446,2.947,1,2.387,362000,2360000,42,3.4,Friday,Sunday
 673,france_tv_slash,French,personality,Just Chatting,Special Events,2.7,710,16.542,1.1,254,65500,1520000,11,0.3,Monday,Friday
-674,burkeblack,English,personality,Just Chatting,Star Citizen,9.4,105,13.541,1.9,21.547,325000,35200000,1,193,5.8,Saturday,Monday
+674,burkeblack,English,personality,Just Chatting,Star Citizen,9.4,105,13.541,1.9,21.547,325000,35200000,1193,5.8,Saturday,Monday
 675,kspksp,Chinese,personality,Just Chatting,Apex Legends,6.3,109,5.038,1.7,8.900,156000,7160000,285,5.7,Sunday,Sunday
 676,qudegam,Russian,personality,Casino,,4.1,7,0,1,8,7,0,1,2,Tuesday,Tuesday
 677,qttsix,Chinese,personality,FINAL FANTASY XIV ONLINE,Just Chatting,8.6,78,15.157,1.5,20.019,214000,39000000,233,6,Thursday,Sunday
@@ -874,7 +874,7 @@ RANK,NAME,LANGUAGE,TYPE,MOST_STREAMED_GAME,2ND_MOST_STREAMED_GAME,AVERAGE_STREAM
 874,vozipu,Russian,personality,Casino,,5.2,0,0,1,10,0,0,1,2,Tuesday,Tuesday
 875,bawkbasoup,English,personality,Resident Evil 3: Nemesis,Resident Evil,7.3,76,4.783,2.4,17.502,182000,11000000,646,6.1,Thursday,Thursday
 876,thijs,English,personality,Hearthstone,Magic: The Gathering,6.5,280,48.740,1.1,13.412,796000,114000000,48,5.3,Tuesday,Saturday
-877,dansgaming,English,personality,Path of Exile,World of Warcraft,8.6,87,23.953,1.5,23.479,846000,149000000,1,300,6.7,Friday,Sunday
+877,dansgaming,English,personality,Path of Exile,World of Warcraft,8.6,87,23.953,1.5,23.479,846000,149000000,1300,6.7,Friday,Sunday
 878,chibidoki,English,personality,Just Chatting,Minecraft,3.6,621,1.478,1.8,3.411,474000,1130000,219,5.4,Thursday,Sunday
 879,bakagaijinlive,Portuguese,personality,Just Chatting,Variety,2.8,1.811,645,1,363,234000,87600,3,1,Sunday,Monday
 880,surefour,English,personality,Overwatch,League of Legends,5.7,277,8.004,1.4,8.936,461000,12300000,202,4,Tuesday,Sunday
