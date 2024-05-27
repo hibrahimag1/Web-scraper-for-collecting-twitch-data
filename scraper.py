@@ -17,7 +17,11 @@ NAME, RANK, LANGUAGE, TYPE, MOST_STREAMED_GAME, 2ND_MOST_STREAMED_GAME
 AVERAGE_STREAM_DURATION, FOLLOWERS_GAINED_PER_STREAM, AVG_VIEWERS_PER_STREAM, AVG_GAMES_PER_STREAM
 TOTAL_TIME_STREAMED, TOTAL_FOLLOWERS, TOTAL_VIEWS, TOTAL_GAMES_STREAMED
 ACTIVE_DAYS_PER_WEEK, MOST_ACTIVE_DAY, DAY_WITH_MOST_FOLLOWERS_GAINED
- 
+'''
+
+'''
+If you wanted to get more esports pages, just use get_name_and_rank on the webpage "https://twitchtracker.com/channels/ranking/esports/page="
+I only needed the most popular esports pages out of the most popular 1000 streamers, so to avoid an unnecesarry request, I wrote them all here
 '''
 # NEEDED FOR get_streamer_type function
 ESPORTS_PAGES = ['riotgames', 'playapex', 'lolpacifictw', 'pgl_dota2', 'gaules', 'ow_esports', 'eslcs', 'brawlstars', 'rocketleague',
@@ -316,8 +320,6 @@ def get_info_from_statistics_page(name: str):
 
     return info
 
-
-
 FUNCTIONS = [get_language_from_streamer, get_streamer_type, get_2_most_streamed_game, get_avg_stream_duration, get_avg_followers_gained_per_stream,
             get_avg_views_per_stream, get_avg_games_per_stream, get_total_time_streamed, get_total_followers, get_total_views, get_total_games_streamed, 
             get_active_days_per_week, get_most_active_day, get_day_with_most_followers_gained ]
@@ -325,12 +327,10 @@ FUNCTIONS = [get_language_from_streamer, get_streamer_type, get_2_most_streamed_
 def ready_data(data):
     if (type(data)==list): return f"{str(data[0])},{str(data[1])}"
     else: return str(data)
-'''
-start = timer()
-with open("Programs\MyProjects\\twitch_streamers\streamer_names.txt", "r", encoding="utf-8") as read_file,  open("Programs\MyProjects\\twitch_streamers\dataset.csv", "a") as write_file:
+
+# this is for creating the dataset.csv file in it's entirety
+with open("streamer_names.txt", "r", encoding="utf-8") as read_file, open("dataset.csv", "a") as write_file:
     for ind, streamer in enumerate(read_file, 1):
-        if (ind < 788): continue
-        if (ind == 913): break
         rank, name = streamer.split(",")
         rank = rank[1:] # to get rid of the # in front
         print(rank, name.rstrip())
@@ -353,15 +353,10 @@ with open("Programs\MyProjects\\twitch_streamers\streamer_names.txt", "r", encod
         except:
             pass
         write_file.write("\n")
-end = timer()
-print(end-start)'''
 
-for fun in FUNCTIONS:
+# this code snippet can be used to get all columns for a single streamer
+'''for fun in FUNCTIONS:
         data = fun("etoiles")
-        if (type(data)==list): print(f"{str(data[0])},{str(data[1])}", end=",")
-        else: print(str(data), end=",")
-        #if fun!=FUNCTIONS[-1]: print(",")
-
-#print(get_avg_views_per_stream("kaicenat"))
-#print(get_active_days_per_week("kato_junichi0817"))
-#print(get_active_days_per_week("homaxih"))
+        if (type(data)==list): print(f"{str(data[0])},{str(data[1])}", end="")
+        else: print(str(data), end="")
+        if fun==FUNCTIONS[-1]: print(",")'''
